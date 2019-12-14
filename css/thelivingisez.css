@@ -1,0 +1,38 @@
+h1 {
+    font-family: Cambria, Georgia, serif;
+}
+
+.jumbotron {
+    background-color: #7851a9;
+    padding: 1rem;
+}
+
+#details {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #7851a9;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+#content {
+    margin: 20px;
+}
+
+#copy {
+    margin: 1.5px 0;
+}
+
+.jumbotron-links {
+    margin-right: 3%;
+    color: #fff;
+    /*background-color: #322348;*/
+}
+
+img {    
+    border-radius: 50%;
+    border: 3px solid #000;
+}
