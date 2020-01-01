@@ -1,21 +1,61 @@
-h1 {
-    font-family: Cambria, Georgia, serif;
+body {
+    font-family: Candara;
+}
+
+h1.page-header {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .jumbotron {
-    background-color: #7851a9;
+    background-color: #480080;
     padding: 1rem;
+    color: #fff;
 }
 
 #details {
     background-color: #fff;
 }
 
+.countdown {
+    text-align: center;
+    background-color: #480080;
+    color: #fff;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    line-height: 1.5;
+    padding: 75px 0;
+    margin-top: 3px;
+}
+
+.countdown-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
-    background-color: #7851a9;
+    background-color: #480080;
     width: 100%;
     bottom: 0;
     left: 0;
+    color: #fff;
+    padding: 12px;
+}
+
+.image-col {
+    max-width: 322px;
+}
+
+.text-col {
+    padding: 2% 4%;
 }
 
 #content {
@@ -32,7 +72,53 @@ footer {
     /*background-color: #322348;*/
 }
 
-img {    
+.pic-wrapper, .countdown-wrapper {    
     border-radius: 50%;
     border: 3px solid #000;
+    height: 292px;
+    width: 292px;
+}
+
+.pic-wrapper {
+    overflow: hidden;
+}
+
+img {
+    height: 292px;
+    position: relative;
+}
+
+/* Specific image settings */
+
+.what-photo {
+    right: 78px;
+}
+
+.where-photo {
+    right: 2px;
+    bottom: 2px;
+}
+
+.who-photo {
+    height: unset;
+    width: 292px;
+    bottom: 55px;
+}
+
+@media screen and (max-width: 400px) {
+    .page-header, p, h2 {
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 16px;
+    }
+
+    .image-col {
+        width: 100%;
+    }
+
+    .text-col {
+        width: 100%;
+    }
 }

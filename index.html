@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/thelivingisez.css">
+    <link rel="shortcut icon" type="image/ico" href="./img/favicon.ico">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -15,57 +16,70 @@
 <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
-            <h1 class="display-4">The Living Is EZ</h1>
+            <h1 class="display-4 page-header">The Living Is EZ</h1>
             <p class="lead">Please join Elena and Zachary to celebrate their union with an evening of feasting and song.</p>
-            <hr class="my-4">
-            <p>
+            <!-- <hr class="my-4"> -->
+            <!-- <p>
                 <a href="#" class="jumbotron-links">Schedule</a>
                 <a href="#" class="jumbotron-links">Accommodations</a>
                 <a href="#" class="jumbotron-links">Photos</a>
                 <a href="#" class="jumbotron-links">A Poem or Song?</a>
                 <a href="#" class="jumbotron-links">Gifts</a>
-            </p>
+            </p> -->
         </div>
     </div>
 
     <div container id="content">
         <div id="details" class="container-fluid">
             <div class="row">
-                <div class="col">
-                    <h2>Who?</h2>
-                    <!--picture of us goes here-->
+                <div class="col image-col">
+                    <div class="pic-wrapper">
+                        <img src="img/wine_barrels.jpeg" 
+                             alt="Zachary and Elena in front of wine barrels"
+                             class="who-photo" />
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col text-col">
+                    <h2>Who?</h2>
                     <p>Elena Ondich and Zachary Velcoff</p>
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col">
-                    <h2>What?</h2>
+                <div class="col image-col">
+                    <div class="pic-wrapper">
+                        <img src="img/engagement_photo.jpg" 
+                             alt="Zachary proposing to Elena at the Skagit Valley Tulip Festival"
+                             class="what-photo" />
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col text-col">
+                    <h2>What?</h2>
                     <p>A wedding!</p>
                     <!--Info about how we met, our story-->
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col">
-                    <h2>When?</h2>
+                <div class="col image-col">
+                    <div class="countdown-wrapper"><p id="demo" class="countdown" /></div>
                 </div>
-                <div class="col">
+                <div class="col text-col">
+                    <h2>When?</h2>
                     <p>Saturday, June 27<sup>th</sup>, 2020</p>
-                    <p id="demo"></p>
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col">
-                    <h2>Where?</h2>
-                    <img src="http://thegardensofcastlerock.com/wp-content/uploads/2015/11/The-Lath-House-Ceremony-Site-at-The-Gardens-of-Castle-Rock.png" alt="The Lath House at the Gardens of Castle Rock; Northfield, Minnesota" height="300px" width="auto"/>        
+                <div class="col image-col">
+                    <div class="pic-wrapper">
+                        <img src="http://thegardensofcastlerock.com/wp-content/uploads/2015/11/The-Lath-House-Ceremony-Site-at-The-Gardens-of-Castle-Rock.png"
+                             alt="The Lath House at the Gardens of Castle Rock; Northfield, Minnesota"
+                             class="where-photo"/>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col text-col">
+                    <h2>Where?</h2>
                     <p><a href="http://thegardensofcastlerock.com/">The Gardens of Castle Rock</a></p>
                     <p>26601 Chippendale Ave</p>
                     <p>Northfield, MN 55057</p> 
@@ -73,11 +87,16 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col">
-                    <h2>Why?</h2>
+                <div class="col image-col">
+                    <div class="pic-wrapper">
+                        <img src="img/tulips.jpg" 
+                             alt="Field of purple tulips meeting field of red tulips at the Skagit Valley Tulip Festival"
+                             class="why-photo" />
+                    </div>
                 </div>
-                <div class="col">
-                    <p>Some quote about love from the Tao or LOTR or something</p> 
+                <div class="col text-col">
+                    <h2>Why?</h2>
+                    <p>Love!</p>
                 </div>
             </div>
         </div>
