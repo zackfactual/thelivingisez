@@ -1,11 +1,11 @@
 $(document).ready(function() { 
     // auto-update copyright
     var year = (new Date).getFullYear();
-    $("#copy").append("&copy; " + year + " — Zachary Velcoff");
+    $("#copy").append("&copy; " + year + " — Zachary Velcoff and Elena Ondich");
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 27, 2020 00:00:00").getTime();
+var countDownDate = new Date("Jun 27, 2020 16:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -24,7 +24,7 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + " days<br />" + hours + " hours<br />"
-  + minutes + " minutes<br />" + seconds + " seconds!";
+  + minutes + " minutes<br />" + seconds + " seconds to go!";
 
   // If the count down is finished, write some text
   if (distance < 0) {
