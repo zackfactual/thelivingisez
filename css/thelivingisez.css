@@ -163,24 +163,33 @@ img {
     margin: 0;
 }
 
+.our-story p {
+    text-align: left;
+    padding: 24px 72px 0;
+}
+
 /* Registry page */
 
-.registry-content p, .registry-content div {
+.registry-content {
     max-width: 800px;
     margin: auto;
+}
+
+.registry-intro {
     padding: 32px 32px 0;
 }
 
 .registry-content a {
-    color: var(--dark-cornflower);
+    color: var(--cornflower-blue);
 }
 
 .registry-content a:hover {
     color: var(--dark-gray);
 }
 
-.registry-content h2 {
-    font-size: 24px;
+.nonprofit-link {
+    font-size: 20px;
+    margin: 16px 40px 0;
 }
 
 @media screen and (max-width: 400px) {
