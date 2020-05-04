@@ -5,6 +5,7 @@
     --medium-gray: #636470;
     --dark-gray: #272835;
     --off-white: #fff7fa;
+    --warning-yellow: #FFE17B;
 }
 
 body {
@@ -15,6 +16,10 @@ h1.page-header {
     font-weight: 400;
     text-align: center;
     margin: 8px 0 24px;
+}
+
+h2 {
+    text-align: center;
 }
 
 .welcome-content h2 {
@@ -153,6 +158,16 @@ img {
     margin: 0 0 12px;
 }
 
+.postpone-banner {
+    text-align: center;
+    padding: 18px 0;
+    background-color: var(--warning-yellow);
+}
+
+.postpone-banner h4 {
+    font-weight: bold;
+}
+
 .our-story {
     text-align: center;
     padding: 32px 0;
@@ -168,16 +183,13 @@ img {
     padding: 24px 72px 0;
 }
 
-/* Registry page */
-
-.registry-content {
-    max-width: 800px;
+.page-body {
+    max-width: 736px;
     margin: auto;
+    padding: 32px 0 0;
 }
 
-.registry-intro {
-    padding: 32px 32px 0;
-}
+/* Registry page */
 
 .registry-content a {
     color: var(--cornflower-blue);
@@ -190,6 +202,12 @@ img {
 .nonprofit-link {
     font-size: 20px;
     margin: 16px 40px 0;
+}
+
+/* Lodging page */
+
+h2 {
+    margin-bottom: 16px;
 }
 
 @media screen and (max-width: 400px) {
